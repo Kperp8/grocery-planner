@@ -20,6 +20,7 @@ Aplikacja internetowa służąca ograniczaniu marnowania produktów spożywczych
 git clone https://github.com/Kperp8/grocery-planner.git
 cd GroceryPlanner
 docker compose up --build -d
+docker compose exec php composer dump-autoload
 ```
 
 Aplikacja: http://localhost:8080

@@ -13,6 +13,21 @@ final class DefaultController extends AppController
         ]);
     }
 
+    public function planner(): void
+    {
+        $this->render('planner', ['pageTitle' => 'Planer']);
+    }
+
+    public function recipes(): void
+    {
+        $this->render('recipes', ['pageTitle' => 'Przepisy']);
+    }
+
+    public function pantry(): void
+    {
+        $this->render('pantry', ['pageTitle' => 'Spiżarnia']);
+    }
+
     public function notFound(): void
     {
         $this->render('not-found', [

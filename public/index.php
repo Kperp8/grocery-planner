@@ -10,6 +10,9 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
 $routing = new Routing();
 
 $routing->get('/', DefaultController::class, 'index');
+$routing->get('/planner', DefaultController::class, 'planner');
+$routing->get('/recipes', DefaultController::class, 'recipes');
+$routing->get('/pantry', DefaultController::class, 'pantry');
 
 $routeFound = $routing->dispatch(
     $_SERVER['REQUEST_METHOD'],
