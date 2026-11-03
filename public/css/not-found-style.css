@@ -54,6 +54,33 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: filter 0.15s ease, background-color 0.15s ease;
+}
+
+button:hover {
+  filter: brightness(0.93);
+}
+
+.nav-94 > button:hover,
+.nav-61 > .container-62 > button:hover,
+.link-116:hover {
+  background-color: rgba(21, 66, 18, 0.08);
+  border-radius: 12px;
+  filter: none;
+}
+
+button:focus-visible {
+  outline: 2px solid rgba(21, 66, 18, 1);
+  outline-offset: 2px;
+}
+
 img {
   max-width: 100%;
   height: auto;

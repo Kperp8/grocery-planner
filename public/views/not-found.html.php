@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Exported from Figma">
+    <meta name="description" content="Page not found">
     <title>Exported Figma Design</title>
     <base href="../">
 
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div class="node-19">
-                            <div class="link-20">
+                            <button type="button" class="link-20">
                                 <div class="link-shadow-21"></div>
                                 <div class="container-22">
                                     <img src="assets/not-found/icon-23.svg" class="icon-23" alt="icon" />
@@ -51,15 +51,15 @@
                                 <div class="container-24">
                                     <p class="text-25"><span class="text-white">Wróć do Pulpitu</span></p>
                                 </div>
-                            </div>
-                            <div class="link-26">
+                            </button>
+                            <button type="button" class="link-26">
                                 <div class="container-27">
                                     <img src="assets/not-found/icon-28.svg" class="icon-28" alt="icon" />
                                 </div>
                                 <div class="container-29">
                                     <p class="text-30"><span class="text-rgb-27-28-26">Planer posiłków</span></p>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="node-31">
@@ -119,15 +119,15 @@
                 </div>
             </div>
             <div class="container-72">
-                <div class="button-73">
+                <button type="button" class="button-73">
                     <div class="container-74">
                         <img src="assets/not-found/icon-75.svg" class="icon-75" alt="icon" />
                     </div>
                     <div class="background-76">
                         <div class="overlay-shadow-77"></div>
                     </div>
-                </div>
-                <div class="button-78">
+                </button>
+                <button type="button" class="button-78">
                     <div class="button-shadow-79"></div>
                     <div class="container-80">
                         <img src="assets/not-found/icon-81.svg" class="icon-81" alt="icon" />
@@ -135,7 +135,7 @@
                     <div class="container-82">
                         <p class="text-83"><span class="text-white">Nowy przepis</span></p>
                     </div>
-                </div>
+                </button>
                 <img src="assets/not-found/profile-84.png" class="profile-84" alt="profile" />
             </div>
         </div>
@@ -154,49 +154,49 @@
                     </div>
                 </div>
                 <div class="nav-94">
-                    <div class="link-95">
+                    <button type="button" class="link-95">
                         <div class="container-96">
                             <img src="assets/not-found/icon-97.svg" class="icon-97" alt="icon" />
                         </div>
                         <div class="container-98">
                             <p class="text-99"><span class="text-rgb-66-73-62">Pulpit</span></p>
                         </div>
-                    </div>
-                    <div class="link-100">
+                    </button>
+                    <button type="button" class="link-100">
                         <div class="container-101">
                             <img src="assets/not-found/icon-102.svg" class="icon-102" alt="icon" />
                         </div>
                         <div class="container-103">
                             <p class="text-104"><span class="text-rgb-66-73-62">Planer posiłków</span></p>
                         </div>
-                    </div>
-                    <div class="link-105">
+                    </button>
+                    <button type="button" class="link-105">
                         <div class="container-106">
                             <img src="assets/not-found/icon-107.svg" class="icon-107" alt="icon" />
                         </div>
                         <div class="container-108">
                             <p class="text-109"><span class="text-rgb-66-73-62">Zakupy i Spiżarnia</span></p>
                         </div>
-                    </div>
-                    <div class="link-110">
+                    </button>
+                    <button type="button" class="link-110">
                         <div class="container-111">
                             <img src="assets/not-found/icon-112.svg" class="icon-112" alt="icon" />
                         </div>
                         <div class="container-113">
                             <p class="text-114"><span class="text-rgb-66-73-62">Przepisy</span></p>
                         </div>
-                    </div>
+                    </button>
                 </div>
             </div>
             <div class="background-115">
-                <div class="link-116">
+                <button type="button" class="link-116">
                     <div class="container-117">
                         <img src="assets/not-found/icon-118.svg" class="icon-118" alt="icon" />
                     </div>
                     <div class="container-119">
                         <p class="text-120"><span class="text-rgb-66-73-62">Ustawienia</span></p>
                     </div>
-                </div>
+                </button>
                 <div class="background-121">
                     <div class="container-122">
                         <img src="assets/not-found/profile-123.png" class="profile-123" alt="profile" />
@@ -238,22 +238,22 @@
                     </div>
                     <div class="node-11">
                         <div class="node-12">
-                            <div class="link-13">
+                            <button type="button" class="link-13">
                                 <div class="container-14">
                                     <img src="assets/not-found/icon-15.svg" class="icon-15" alt="icon" />
                                 </div>
                                 <div class="container-16">
                                     <p class="text-17"><span class="text-white">Wróć do Pulpitu</span></p>
                                 </div>
-                            </div>
-                            <div class="link-18">
+                            </button>
+                            <button type="button" class="link-18">
                                 <div class="container-19">
                                     <img src="assets/not-found/icon-20.svg" class="icon-20" alt="icon" />
                                 </div>
                                 <div class="container-21">
                                     <p class="text-22"><span class="text-rgb-21-66-18">Zobacz Planer posiłków</span></p>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="node-23">
@@ -305,58 +305,58 @@
                     </div>
                 </div>
                 <div class="container-51">
-                    <div class="button-powiadomienia-52">
+                    <button type="button" class="button-powiadomienia-52">
                         <div class="container-53">
                             <img src="assets/not-found/icon-54.svg" class="icon-54" alt="icon" />
                         </div>
                         <div class="background-55">
                             <div class="overlay-shadow-56"></div>
                         </div>
-                    </div>
-                    <div class="node-57">
+                    </button>
+                    <button type="button" class="node-57">
                         <div class="background-58">
                             <div class="container-59">
                                 <img src="assets/not-found/icon-60.svg" class="icon-60" alt="icon" />
                             </div>
                         </div>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
         <div class="nav-61">
             <div class="container-62">
-                <div class="link-63">
+                <button type="button" class="link-63">
                     <div class="container-64">
                         <img src="assets/not-found/icon-65.svg" class="icon-65" alt="icon" />
                     </div>
                     <div class="container-66">
                         <p class="text-67"><span class="text-rgb-66-73-62">Pulpit</span></p>
                     </div>
-                </div>
-                <div class="link-68">
+                </button>
+                <button type="button" class="link-68">
                     <div class="container-69">
                         <img src="assets/not-found/icon-70.svg" class="icon-70" alt="icon" />
                     </div>
                     <div class="container-71">
                         <p class="text-72"><span class="text-rgb-66-73-62">Planer</span></p>
                     </div>
-                </div>
-                <div class="link-73">
+                </button>
+                <button type="button" class="link-73">
                     <div class="container-74">
                         <img src="assets/not-found/icon-75.svg" class="icon-75" alt="icon" />
                     </div>
                     <div class="container-76">
                         <p class="text-77"><span class="text-rgb-66-73-62">Zakupy</span></p>
                     </div>
-                </div>
-                <div class="link-78">
+                </button>
+                <button type="button" class="link-78">
                     <div class="container-79">
                         <img src="assets/not-found/icon-80.svg" class="icon-80" alt="icon" />
                     </div>
                     <div class="container-81">
                         <p class="text-82"><span class="text-rgb-66-73-62">Przepisy</span></p>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     </div>
