@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="node-1">
+    <div class="desktop-view">
         <div class="main-2">
             <div class="node-3">
                 <div class="node-4"></div>
@@ -212,6 +212,149 @@
                     </div>
                     <div class="container-130">
                         <img src="assets/not-found/icon-131.svg" class="icon-131" alt="icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-view">
+        <div class="main-2">
+            <div class="container-3">
+                <div class="node-4">
+                    <div class="node-5">
+                        <div class="tytu-i-komunikat-6">
+                            <div class="heading-1-7">
+                                <p class="text-8"><span class="text-rgb-27-28-26">Garnki puste! Strona nie
+                                        istnieje</span></p>
+                            </div>
+                            <div class="container-9">
+                                <p class="text-10"><span class="text-rgb-66-73-62">Wygląda na to, że szukany przepis lub
+                                        strona
+                                        zniknęły ze stołu. Sprawdź adres lub wróć do swoich
+                                        posiłków.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="node-11">
+                        <div class="node-12">
+                            <div class="link-13">
+                                <div class="container-14">
+                                    <img src="assets/not-found/icon-15.svg" class="icon-15" alt="icon" />
+                                </div>
+                                <div class="container-16">
+                                    <p class="text-17"><span class="text-white">Wróć do Pulpitu</span></p>
+                                </div>
+                            </div>
+                            <div class="link-18">
+                                <div class="container-19">
+                                    <img src="assets/not-found/icon-20.svg" class="icon-20" alt="icon" />
+                                </div>
+                                <div class="container-21">
+                                    <p class="text-22"><span class="text-rgb-21-66-18">Zobacz Planer posiłków</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="node-23">
+                        <div class="node-24">
+                            <div class="node-25"></div>
+                            <div class="node-26">
+                                <div class="background-shadow-27">
+                                    <div class="background-28">
+                                        <div class="container-29">
+                                            <img src="assets/not-found/icon-30.svg" class="icon-30" alt="icon" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-31">
+                                    <img src="assets/not-found/icon-32.svg" class="icon-32" alt="icon" />
+                                </div>
+                                <div class="container-33">
+                                    <img src="assets/not-found/icon-34.svg" class="icon-34" alt="icon" />
+                                </div>
+                            </div>
+                            <div class="plakietka-404-35">
+                                <div class="plakietka-404-shadow-36"></div>
+                                <div class="container-37">
+                                    <p class="text-38"><span class="text-white">404</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-39">
+            <div class="container-40">
+                <div class="container-41">
+                    <div class="background-shadow-42">
+                        <div class="container-43">
+                            <img src="assets/not-found/icon-44.svg" class="icon-44" alt="icon" />
+                        </div>
+                    </div>
+                    <div class="container-45">
+                        <div class="container-46">
+                            <p class="text-47"><span class="text-rgb-21-66-18">SmakPlan</span></p>
+                        </div>
+                        <div class="margin-48">
+                            <div class="container-49">
+                                <p class="text-50"><span class="text-rgb-161-62-40">Pulpit</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-51">
+                    <div class="button-powiadomienia-52">
+                        <div class="container-53">
+                            <img src="assets/not-found/icon-54.svg" class="icon-54" alt="icon" />
+                        </div>
+                        <div class="background-55">
+                            <div class="overlay-shadow-56"></div>
+                        </div>
+                    </div>
+                    <div class="node-57">
+                        <div class="background-58">
+                            <div class="container-59">
+                                <img src="assets/not-found/icon-60.svg" class="icon-60" alt="icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-61">
+            <div class="container-62">
+                <div class="link-63">
+                    <div class="container-64">
+                        <img src="assets/not-found/icon-65.svg" class="icon-65" alt="icon" />
+                    </div>
+                    <div class="container-66">
+                        <p class="text-67"><span class="text-rgb-66-73-62">Pulpit</span></p>
+                    </div>
+                </div>
+                <div class="link-68">
+                    <div class="container-69">
+                        <img src="assets/not-found/icon-70.svg" class="icon-70" alt="icon" />
+                    </div>
+                    <div class="container-71">
+                        <p class="text-72"><span class="text-rgb-66-73-62">Planer</span></p>
+                    </div>
+                </div>
+                <div class="link-73">
+                    <div class="container-74">
+                        <img src="assets/not-found/icon-75.svg" class="icon-75" alt="icon" />
+                    </div>
+                    <div class="container-76">
+                        <p class="text-77"><span class="text-rgb-66-73-62">Zakupy</span></p>
+                    </div>
+                </div>
+                <div class="link-78">
+                    <div class="container-79">
+                        <img src="assets/not-found/icon-80.svg" class="icon-80" alt="icon" />
+                    </div>
+                    <div class="container-81">
+                        <p class="text-82"><span class="text-rgb-66-73-62">Przepisy</span></p>
                     </div>
                 </div>
             </div>
