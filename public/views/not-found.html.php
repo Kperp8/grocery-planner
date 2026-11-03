@@ -8,7 +8,7 @@
     <title>Exported Figma Design</title>
     <base href="../">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/not-found-style.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                         <div class="node-8">
                             <div class="overlay-9">
                                 <div class="container-10">
-                                    <img src="images/icon-11.svg" class="icon-11" alt="icon" />
+                                    <img src="assets/not-found/icon-11.svg" class="icon-11" alt="icon" />
                                 </div>
                                 <div class="container-12">
                                     <p class="text-13"><span class="text-rgb-61-6-0">KOD BŁĘDU: 404 • DANIE POZA
@@ -46,7 +46,7 @@
                             <div class="link-20">
                                 <div class="link-shadow-21"></div>
                                 <div class="container-22">
-                                    <img src="images/icon-23.svg" class="icon-23" alt="icon" />
+                                    <img src="assets/not-found/icon-23.svg" class="icon-23" alt="icon" />
                                 </div>
                                 <div class="container-24">
                                     <p class="text-25"><span class="text-white">Wróć do Pulpitu</span></p>
@@ -54,7 +54,7 @@
                             </div>
                             <div class="link-26">
                                 <div class="container-27">
-                                    <img src="images/icon-28.svg" class="icon-28" alt="icon" />
+                                    <img src="assets/not-found/icon-28.svg" class="icon-28" alt="icon" />
                                 </div>
                                 <div class="container-29">
                                     <p class="text-30"><span class="text-rgb-27-28-26">Planer posiłków</span></p>
@@ -66,31 +66,31 @@
                         <div class="container-32">
                             <div class="node-33">
                                 <div class="svg-34">
-                                    <img src="images/vector-35.svg" class="vector-35" alt="vector" />
-                                    <img src="images/vector-36.svg" class="vector-36" alt="vector" />
-                                    <img src="images/vector-37.svg" class="vector-37" alt="vector" />
-                                    <img src="images/vector-38.svg" class="vector-38" alt="vector" />
-                                    <img src="images/vector-39.svg" class="vector-39" alt="vector" />
-                                    <img src="images/vector-40.svg" class="vector-40" alt="vector" />
-                                    <img src="images/vector-41.svg" class="vector-41" alt="vector" />
-                                    <img src="images/vector-42.svg" class="vector-42" alt="vector" />
-                                    <img src="images/vector-43.svg" class="vector-43" alt="vector" />
-                                    <img src="images/vector-44.svg" class="vector-44" alt="vector" />
-                                    <img src="images/vector-45.svg" class="vector-45" alt="vector" />
-                                    <img src="images/vector-46.svg" class="vector-46" alt="vector" />
-                                    <img src="images/vector-47.svg" class="vector-47" alt="vector" />
-                                    <img src="images/vector-48.svg" class="vector-48" alt="vector" />
-                                    <img src="images/vector-49.svg" class="vector-49" alt="vector" />
-                                    <img src="images/vector-50.svg" class="vector-50" alt="vector" />
-                                    <img src="images/vector-51.svg" class="vector-51" alt="vector" />
-                                    <img src="images/vector-52.svg" class="vector-52" alt="vector" />
-                                    <img src="images/vector-53.svg" class="vector-53" alt="vector" />
-                                    <img src="images/vector-54.svg" class="vector-54" alt="vector" />
-                                    <img src="images/vector-55.svg" class="vector-55" alt="vector" />
-                                    <img src="images/vector-56.svg" class="vector-56" alt="vector" />
-                                    <img src="images/vector-57.svg" class="vector-57" alt="vector" />
-                                    <img src="images/vector-58.svg" class="vector-58" alt="vector" />
-                                    <img src="images/vector-59.svg" class="vector-59" alt="vector" />
+                                    <img src="assets/not-found/vector-35.svg" class="vector-35" alt="vector" />
+                                    <img src="assets/not-found/vector-36.svg" class="vector-36" alt="vector" />
+                                    <img src="assets/not-found/vector-37.svg" class="vector-37" alt="vector" />
+                                    <img src="assets/not-found/vector-38.svg" class="vector-38" alt="vector" />
+                                    <img src="assets/not-found/vector-39.svg" class="vector-39" alt="vector" />
+                                    <img src="assets/not-found/vector-40.svg" class="vector-40" alt="vector" />
+                                    <img src="assets/not-found/vector-41.svg" class="vector-41" alt="vector" />
+                                    <img src="assets/not-found/vector-42.svg" class="vector-42" alt="vector" />
+                                    <img src="assets/not-found/vector-43.svg" class="vector-43" alt="vector" />
+                                    <img src="assets/not-found/vector-44.svg" class="vector-44" alt="vector" />
+                                    <img src="assets/not-found/vector-45.svg" class="vector-45" alt="vector" />
+                                    <img src="assets/not-found/vector-46.svg" class="vector-46" alt="vector" />
+                                    <img src="assets/not-found/vector-47.svg" class="vector-47" alt="vector" />
+                                    <img src="assets/not-found/vector-48.svg" class="vector-48" alt="vector" />
+                                    <img src="assets/not-found/vector-49.svg" class="vector-49" alt="vector" />
+                                    <img src="assets/not-found/vector-50.svg" class="vector-50" alt="vector" />
+                                    <img src="assets/not-found/vector-51.svg" class="vector-51" alt="vector" />
+                                    <img src="assets/not-found/vector-52.svg" class="vector-52" alt="vector" />
+                                    <img src="assets/not-found/vector-53.svg" class="vector-53" alt="vector" />
+                                    <img src="assets/not-found/vector-54.svg" class="vector-54" alt="vector" />
+                                    <img src="assets/not-found/vector-55.svg" class="vector-55" alt="vector" />
+                                    <img src="assets/not-found/vector-56.svg" class="vector-56" alt="vector" />
+                                    <img src="assets/not-found/vector-57.svg" class="vector-57" alt="vector" />
+                                    <img src="assets/not-found/vector-58.svg" class="vector-58" alt="vector" />
+                                    <img src="assets/not-found/vector-59.svg" class="vector-59" alt="vector" />
                                 </div>
                             </div>
                             <div class="node-60">
@@ -115,13 +115,13 @@
                     </div>
                 </div>
                 <div class="container-70">
-                    <img src="images/icon-71.svg" class="icon-71" alt="icon" />
+                    <img src="assets/not-found/icon-71.svg" class="icon-71" alt="icon" />
                 </div>
             </div>
             <div class="container-72">
                 <div class="button-73">
                     <div class="container-74">
-                        <img src="images/icon-75.svg" class="icon-75" alt="icon" />
+                        <img src="assets/not-found/icon-75.svg" class="icon-75" alt="icon" />
                     </div>
                     <div class="background-76">
                         <div class="overlay-shadow-77"></div>
@@ -130,13 +130,13 @@
                 <div class="button-78">
                     <div class="button-shadow-79"></div>
                     <div class="container-80">
-                        <img src="images/icon-81.svg" class="icon-81" alt="icon" />
+                        <img src="assets/not-found/icon-81.svg" class="icon-81" alt="icon" />
                     </div>
                     <div class="container-82">
                         <p class="text-83"><span class="text-white">Nowy przepis</span></p>
                     </div>
                 </div>
-                <img src="images/profile-84.png" class="profile-84" alt="profile" />
+                <img src="assets/not-found/profile-84.png" class="profile-84" alt="profile" />
             </div>
         </div>
         <div class="aside-85">
@@ -156,7 +156,7 @@
                 <div class="nav-94">
                     <div class="link-95">
                         <div class="container-96">
-                            <img src="images/icon-97.svg" class="icon-97" alt="icon" />
+                            <img src="assets/not-found/icon-97.svg" class="icon-97" alt="icon" />
                         </div>
                         <div class="container-98">
                             <p class="text-99"><span class="text-rgb-66-73-62">Pulpit</span></p>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="link-100">
                         <div class="container-101">
-                            <img src="images/icon-102.svg" class="icon-102" alt="icon" />
+                            <img src="assets/not-found/icon-102.svg" class="icon-102" alt="icon" />
                         </div>
                         <div class="container-103">
                             <p class="text-104"><span class="text-rgb-66-73-62">Planer posiłków</span></p>
@@ -172,7 +172,7 @@
                     </div>
                     <div class="link-105">
                         <div class="container-106">
-                            <img src="images/icon-107.svg" class="icon-107" alt="icon" />
+                            <img src="assets/not-found/icon-107.svg" class="icon-107" alt="icon" />
                         </div>
                         <div class="container-108">
                             <p class="text-109"><span class="text-rgb-66-73-62">Zakupy i Spiżarnia</span></p>
@@ -180,7 +180,7 @@
                     </div>
                     <div class="link-110">
                         <div class="container-111">
-                            <img src="images/icon-112.svg" class="icon-112" alt="icon" />
+                            <img src="assets/not-found/icon-112.svg" class="icon-112" alt="icon" />
                         </div>
                         <div class="container-113">
                             <p class="text-114"><span class="text-rgb-66-73-62">Przepisy</span></p>
@@ -191,7 +191,7 @@
             <div class="background-115">
                 <div class="link-116">
                     <div class="container-117">
-                        <img src="images/icon-118.svg" class="icon-118" alt="icon" />
+                        <img src="assets/not-found/icon-118.svg" class="icon-118" alt="icon" />
                     </div>
                     <div class="container-119">
                         <p class="text-120"><span class="text-rgb-66-73-62">Ustawienia</span></p>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="background-121">
                     <div class="container-122">
-                        <img src="images/profile-123.png" class="profile-123" alt="profile" />
+                        <img src="assets/not-found/profile-123.png" class="profile-123" alt="profile" />
                         <div class="container-124">
                             <div class="container-125">
                                 <p class="text-126"><span class="text-rgb-27-28-26">Anna Kowalska</span></p>
@@ -211,7 +211,7 @@
                         </div>
                     </div>
                     <div class="container-130">
-                        <img src="images/icon-131.svg" class="icon-131" alt="icon" />
+                        <img src="assets/not-found/icon-131.svg" class="icon-131" alt="icon" />
                     </div>
                 </div>
             </div>
