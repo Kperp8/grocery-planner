@@ -353,9 +353,11 @@ a.prototype-link {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 51px;
+    height: 51px;
 }
 
 .view-desktop .node-17 {
@@ -367,6 +369,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     width: 28.07017543859649%;
+    position: relative;
 }
 
 .view-desktop .text-28 {
@@ -735,6 +738,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
     box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.5);
     background-color: rgba(245, 244, 240, 1);
     border-radius: 16px;
@@ -1403,7 +1407,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(250, 249, 245, 1);
     border-radius: 16px;
 }
 
@@ -1871,7 +1875,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(250, 249, 245, 1);
     border-radius: 16px;
 }
 
@@ -2352,7 +2356,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(250, 249, 245, 1);
     border-radius: 16px;
 }
 
@@ -2858,7 +2862,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(250, 249, 245, 1);
     border-radius: 16px;
 }
 
@@ -3710,12 +3714,13 @@ a.prototype-link {
 }
 
 .view-desktop .node-273 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 16px;
     padding: 0px 0px 0px 0px;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    width: 100%;
 }
 
 .view-desktop .icon-298 {
@@ -3858,7 +3863,8 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-    background-color: rgba(255, 255, 255, 1);
+    margin-left: auto;
+    background-color: rgba(250, 249, 245, 1);
     border-radius: 16px;
 }
 
@@ -4382,7 +4388,8 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-    background-color: rgba(255, 255, 255, 1);
+    margin-left: auto;
+    background-color: rgba(250, 249, 245, 1);
     border-radius: 16px;
 }
 
@@ -4393,16 +4400,18 @@ a.prototype-link {
     align-items: flex-start;
     gap: 24px;
     padding: 0px;
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    margin-right: 40px;
 }
 
 .view-desktop .node-54 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
+    gap: 64px;
     padding: 0px;
     flex-grow: 0;
     flex-shrink: 1;
@@ -4424,7 +4433,7 @@ a.prototype-link {
 .view-desktop .main-2 {
     flex-grow: 0;
     flex-shrink: 1;
-    width: 77.5%;
+    width: 100%;
 }
 
 .view-desktop .text-354 {
@@ -4454,9 +4463,10 @@ a.prototype-link {
 .view-desktop .input-352 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 10px 16px 10px 40px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
     flex-grow: 0;
     flex-shrink: 1;
     width: 100%;
@@ -4493,7 +4503,6 @@ a.prototype-link {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    max-width: 448px;
 }
 
 .view-desktop .icon-360 {
@@ -4640,6 +4649,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    margin-left: auto;
 }
 
 .view-desktop .header-350 {
@@ -4648,10 +4658,13 @@ a.prototype-link {
     justify-content: flex-start;
     align-items: center;
     gap: 226.8300018310547px;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 0px 0px 40px;
+    order: -1;
     flex-grow: 0;
     flex-shrink: 1;
-    width: 77.5%;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 16px;
     backdrop-filter: blur(48px);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(250, 249, 245, 0.800000011920929);
@@ -5215,12 +5228,12 @@ a.prototype-link {
     justify-content: space-between;
     align-items: flex-start;
     gap: 382px;
-    padding: 24px;
+    padding: 24px 40px 24px 24px;
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
-    width: 288px;
+    width: 272px;
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(245, 244, 240, 1);
 }
@@ -5249,7 +5262,6 @@ a.prototype-link {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    max-width: 1280px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -5296,6 +5308,23 @@ a.prototype-link {
 
 
 
+
+:is(.view-desktop, .view-mobile) [class^="button-"]:not([class*="shadow"], [class*="margin"]),
+:is(.view-desktop, .view-mobile) [class^="link-"]:not([class*="shadow"]) {
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, outline-color 0.2s ease;
+}
+
+:is(.view-desktop, .view-mobile) [class^="button-"]:not([class*="shadow"], [class*="margin"]):hover,
+:is(.view-desktop, .view-mobile) [class^="link-"]:not([class*="shadow"]):hover {
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.07);
+}
+
+:is(.view-desktop, .view-mobile) [class^="button-"]:not([class*="shadow"], [class*="margin"]):focus-visible,
+:is(.view-desktop, .view-mobile) [class^="link-"]:not([class*="shadow"]):focus-visible {
+    outline: 2px solid rgba(21, 66, 18, 1);
+    outline-offset: 2px;
+}
 
 .view-mobile .icon-9 {
     flex-grow: 0;
@@ -5444,6 +5473,50 @@ a.prototype-link {
     flex-basis: auto;
 }
 
+:is(.view-desktop, .view-mobile) .progress-ring {
+    display: block;
+    transform: rotate(-90deg);
+}
+
+.view-mobile .progress-ring {
+    width: 64px;
+    height: 64px;
+}
+
+.view-desktop .progress-ring {
+    width: 51px;
+    height: 51px;
+}
+
+:is(.view-desktop, .view-mobile) .progress-ring circle {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+}
+
+:is(.view-desktop, .view-mobile) .progress-ring-track {
+    stroke: rgba(239, 238, 234, 1);
+}
+
+:is(.view-desktop, .view-mobile) .progress-ring-value {
+    stroke: rgba(45, 90, 39, 1);
+    stroke-dasharray: 100 100;
+    stroke-dashoffset: calc(100 - var(--progress, 0));
+    animation: progress-ring-fill 0.8s ease-out both;
+}
+
+@keyframes progress-ring-fill {
+    from {
+        stroke-dashoffset: 100;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :is(.view-desktop, .view-mobile) .progress-ring-value {
+        animation: none;
+    }
+}
+
 .view-mobile .text-22 {
     flex-grow: 0;
     flex-shrink: 1;
@@ -5474,6 +5547,9 @@ a.prototype-link {
 }
 
 .view-mobile .paragraph-21 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -5522,9 +5598,8 @@ a.prototype-link {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    width: 100%;
+    position: absolute;
+    inset: 0px;
 }
 
 .view-mobile .container-16 {
@@ -5536,6 +5611,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     width: 24.539877300613497%;
+    position: relative;
 }
 
 .view-mobile .container-5 {
@@ -5609,6 +5685,7 @@ a.prototype-link {
     line-height: 14px;
     text-decoration: none;
     text-transform: none;
+    white-space: nowrap;
     color: var(--text-rgb-253-131-103);
 }
 
@@ -6242,6 +6319,7 @@ a.prototype-link {
     flex-shrink: 1;
     flex-basis: auto;
     box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.5), 0px 4px 6px -1px rgba(0, 0, 0, 0.5);
+    background-color: rgba(21, 66, 18, 1);
     border-radius: 12px;
 }
 
@@ -6325,6 +6403,7 @@ a.prototype-link {
     line-height: 14px;
     text-decoration: none;
     text-transform: none;
+    white-space: nowrap;
     color: var(--text-rgb-66-73-62);
 }
 
@@ -8015,6 +8094,7 @@ a.prototype-link {
     line-height: 14px;
     text-decoration: none;
     text-transform: none;
+    white-space: nowrap;
     color: var(--text-rgb-161-62-40);
 }
 
@@ -8231,9 +8311,9 @@ a.prototype-link {
     justify-content: space-between;
     align-items: flex-start;
     padding: 10px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
-    width: 100%;
+    flex-basis: 160px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 1);
     border-radius: 8px;
@@ -8402,9 +8482,9 @@ a.prototype-link {
     justify-content: space-between;
     align-items: flex-start;
     padding: 10px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
-    width: 100%;
+    flex-basis: 160px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 1);
     border-radius: 8px;
@@ -8573,15 +8653,22 @@ a.prototype-link {
     justify-content: space-between;
     align-items: flex-start;
     padding: 10px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
-    width: 100%;
+    flex-basis: 160px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 1);
     border-radius: 8px;
 }
 
 .view-mobile .container-234 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -8751,7 +8838,7 @@ a.prototype-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 64px 0px 112px 0px;
+    padding: 16px 0px 24px 0px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -9002,6 +9089,7 @@ a.prototype-link {
 }
 
 .view-mobile .header-287 {
+    order: -1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -9010,6 +9098,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
     backdrop-filter: blur(48px);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(250, 249, 245, 0.8500000238418579);
@@ -9268,6 +9357,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
     backdrop-filter: blur(48px);
     box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(250, 249, 245, 0.8999999761581421);
