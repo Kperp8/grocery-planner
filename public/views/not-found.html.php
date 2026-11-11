@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Page not found">
-    <title>Exported Figma Design</title>
+    <title>404 Not Found</title>
     <base href="../">
 
     <link rel="stylesheet" href="css/not-found-style.css">
