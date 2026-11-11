@@ -98,7 +98,7 @@
                         <div class="node-48">
                             <div class="node-49">
                                 <div class="container-50">
-                                    <div class="button-51">
+                                    <div class="button-51" tabindex="0">
                                         <div class="container-52">
                                             <img src="../assets/pantry/icon-53.svg" class="icon-53" alt="icon" />
                                         </div>
@@ -106,7 +106,7 @@
                                             <p class="text-55"><span class="text-white">Działy w sklepie</span></p>
                                         </div>
                                     </div>
-                                    <div class="button-56">
+                                    <div class="button-56" tabindex="0">
                                         <div class="container-57">
                                             <img src="../assets/pantry/icon-58.svg" class="icon-58" alt="icon" />
                                         </div>
@@ -115,7 +115,7 @@
                                                     Biedronka)</span></p>
                                         </div>
                                     </div>
-                                    <div class="button-61">
+                                    <div class="button-61" tabindex="0">
                                         <div class="container-62">
                                         </div>
                                         <div class="container-64">
@@ -124,7 +124,7 @@
                                     </div>
                                 </div>
                                 <div class="container-66">
-                                    <div class="button-67">
+                                    <div class="button-67" tabindex="0">
                                         <div class="container-68">
                                             <img src="../assets/pantry/icon-69.svg" class="icon-69" alt="icon" />
                                         </div>
@@ -132,7 +132,7 @@
                                             <p class="text-71"><span class="text-rgb-27-28-26">Kopiuj (SMS)</span></p>
                                         </div>
                                     </div>
-                                    <div class="button-72">
+                                    <div class="button-72" tabindex="0">
                                         <div class="container-73">
                                             <img src="../assets/pantry/icon-74.svg" class="icon-74" alt="icon" />
                                         </div>
@@ -140,7 +140,7 @@
                                             <p class="text-76"><span class="text-rgb-27-28-26">Kup wszystko</span></p>
                                         </div>
                                     </div>
-                                    <div class="button-77">
+                                    <div class="button-77" tabindex="0">
                                         <div class="container-78">
                                             <img src="../assets/pantry/icon-79.svg" class="icon-79" alt="icon" />
                                         </div>
@@ -175,7 +175,7 @@
                                         <div class="container-96">
                                             <div class="label-margin-97">
                                                 <div class="label-98">
-                                                    <div class="input-99"></div>
+                                                    <div class="input-99" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-100">
@@ -222,7 +222,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-122">
+                                            <div class="button-122" tabindex="0">
                                                 <div class="container-123">
                                                     <img src="../assets/pantry/icon-124.svg" class="icon-124" alt="icon" />
                                                 </div>
@@ -233,7 +233,7 @@
                                         <div class="container-126">
                                             <div class="label-margin-127">
                                                 <div class="label-128">
-                                                    <div class="input-129"></div>
+                                                    <div class="input-129" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-130">
@@ -278,7 +278,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-152">
+                                            <div class="button-152" tabindex="0">
                                                 <div class="container-153">
                                                     <img src="../assets/pantry/icon-154.svg" class="icon-154" alt="icon" />
                                                 </div>
@@ -289,7 +289,7 @@
                                         <div class="container-156">
                                             <div class="label-margin-157">
                                                 <div class="label-158">
-                                                    <div class="input-159"></div>
+                                                    <div class="input-159" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-160">
@@ -336,7 +336,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-182">
+                                            <div class="button-182" tabindex="0">
                                                 <div class="container-183">
                                                     <img src="../assets/pantry/icon-184.svg" class="icon-184" alt="icon" />
                                                 </div>
@@ -369,7 +369,7 @@
                                         <div class="container-199">
                                             <div class="label-margin-200">
                                                 <div class="label-201">
-                                                    <div class="input-202"></div>
+                                                    <div class="input-202" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-203">
@@ -415,7 +415,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-225">
+                                            <div class="button-225" tabindex="0">
                                                 <div class="container-226">
                                                     <img src="../assets/pantry/icon-227.svg" class="icon-227" alt="icon" />
                                                 </div>
@@ -426,7 +426,7 @@
                                         <div class="container-229">
                                             <div class="label-margin-230">
                                                 <div class="label-231">
-                                                    <div class="input-232"></div>
+                                                    <div class="input-232" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-233">
@@ -474,7 +474,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-255">
+                                            <div class="button-255" tabindex="0">
                                                 <div class="container-256">
                                                     <img src="../assets/pantry/icon-257.svg" class="icon-257" alt="icon" />
                                                 </div>
@@ -507,7 +507,7 @@
                                         <div class="container-272">
                                             <div class="label-margin-273">
                                                 <div class="label-274">
-                                                    <div class="input-275"></div>
+                                                    <div class="input-275" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-276">
@@ -554,7 +554,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-298">
+                                            <div class="button-298" tabindex="0">
                                                 <div class="container-299">
                                                     <img src="../assets/pantry/icon-300.svg" class="icon-300" alt="icon" />
                                                 </div>
@@ -565,7 +565,7 @@
                                         <div class="container-302">
                                             <div class="label-margin-303">
                                                 <div class="label-304">
-                                                    <div class="input-305"></div>
+                                                    <div class="input-305" tabindex="0"></div>
                                                 </div>
                                             </div>
                                             <div class="container-306">
@@ -610,7 +610,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="button-328">
+                                            <div class="button-328" tabindex="0">
                                                 <div class="container-329">
                                                     <img src="../assets/pantry/icon-330.svg" class="icon-330" alt="icon" />
                                                 </div>
@@ -643,7 +643,7 @@
                                     <div class="container-344">
                                         <div class="label-margin-345">
                                             <div class="label-346">
-                                                <div class="input-347"></div>
+                                                <div class="input-347" tabindex="0"></div>
                                             </div>
                                         </div>
                                         <div class="container-348">
@@ -691,7 +691,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="button-372">
+                                        <div class="button-372" tabindex="0">
                                             <div class="container-373">
                                                 <img src="../assets/pantry/icon-374.svg" class="icon-374" alt="icon" />
                                             </div>
@@ -725,7 +725,7 @@
                                 </div>
                                 <div class="node-388">
                                     <div class="container-389">
-                                        <div class="input-390">
+                                        <div class="input-390" tabindex="0">
                                             <div class="container-391">
                                                 <p class="text-392"><span class="text-rgb-66-73-62">Szukaj w
                                                         zapasach...</span></p>
@@ -736,18 +736,18 @@
                                         </div>
                                     </div>
                                     <div class="chips-filters-395">
-                                        <div class="button-396">
+                                        <div class="button-396" tabindex="0">
                                             <p class="text-397"><span class="text-white">Wszystko
                                                     (32)</span></p>
                                         </div>
-                                        <div class="button-398">
+                                        <div class="button-398" tabindex="0">
                                             <div class="background-399"></div>
                                             <div class="container-400">
                                                 <p class="text-401"><span class="text-rgb-161-62-40">Kończące
                                                         się (3)</span></p>
                                             </div>
                                         </div>
-                                        <div class="button-402">
+                                        <div class="button-402" tabindex="0">
                                             <p class="text-403"><span class="text-rgb-66-73-62">Bliski
                                                     termin
                                                     (2)</span></p>
@@ -755,13 +755,13 @@
                                     </div>
                                 </div>
                                 <div class="node-404">
-                                    <div class="input-405">
+                                    <div class="input-405" tabindex="0">
                                         <div class="container-406">
                                             <p class="text-407"><span class="text-rgb-66-73-62">Szybko dodaj do spiżarni
                                                     (np. Mleko 1L)...</span></p>
                                         </div>
                                     </div>
-                                    <div class="button-408">
+                                    <div class="button-408" tabindex="0">
                                         <div class="container-409">
                                             <img src="../assets/pantry/icon-410.svg" class="icon-410" alt="icon" />
                                         </div>
@@ -822,7 +822,7 @@
                                                 <p class="text-439"><span class="text-rgb-66-73-62">Potrzeba 6 szt. do
                                                         tygodnia</span></p>
                                             </div>
-                                            <div class="button-440">
+                                            <div class="button-440" tabindex="0">
                                                 <div class="container-441">
                                                     <p class="text-442"><span class="text-rgb-21-66-18">Zarządzaj</span>
                                                     </p>
@@ -914,7 +914,7 @@
                                     </div>
                                 </div>
                                 <div class="button-margin-487">
-                                    <div class="button-488">
+                                    <div class="button-488" tabindex="0">
                                         <div class="container-489">
                                             <img src="../assets/pantry/icon-490.svg" class="icon-490" alt="icon" />
                                         </div>
@@ -958,7 +958,7 @@
             </div>
             <div class="header-506">
                 <div class="container-507">
-                    <div class="input-508">
+                    <div class="input-508" tabindex="0">
                         <div class="container-509">
                             <p class="text-510"><span class="text-rgb-66-73-62">Szukaj dań, przepisów lub
                                     składników...</span></p>
@@ -969,7 +969,7 @@
                     </div>
                 </div>
                 <div class="container-513">
-                    <div class="button-514">
+                    <div class="button-514" tabindex="0">
                         <div class="container-515">
                             <img src="../assets/pantry/icon-516.svg" class="icon-516" alt="icon" />
                         </div>
@@ -977,7 +977,7 @@
                             <div class="overlay-shadow-518"></div>
                         </div>
                     </div>
-                    <div class="button-519">
+                    <div class="button-519" tabindex="0">
                         <div class="button-shadow-520"></div>
                         <div class="container-521">
                             <img src="../assets/pantry/icon-522.svg" class="icon-522" alt="icon" />
@@ -1004,7 +1004,7 @@
                         </div>
                     </div>
                     <div class="nav-535">
-                        <div class="link-536">
+                        <div class="link-536" tabindex="0">
                             <div class="container-537">
                                 <img src="../assets/pantry/icon-538.svg" class="icon-538" alt="icon" />
                             </div>
@@ -1012,7 +1012,7 @@
                                 <p class="text-540"><span class="text-rgb-66-73-62">Pulpit</span></p>
                             </div>
                         </div>
-                        <div class="link-541">
+                        <div class="link-541" tabindex="0">
                             <div class="container-542">
                                 <img src="../assets/pantry/icon-543.svg" class="icon-543" alt="icon" />
                             </div>
@@ -1020,7 +1020,7 @@
                                 <p class="text-545"><span class="text-rgb-66-73-62">Planer posiłków</span></p>
                             </div>
                         </div>
-                        <div class="link-546">
+                        <div class="link-546" tabindex="0">
                             <div class="container-547">
                                 <img src="../assets/pantry/icon-548.svg" class="icon-548" alt="icon" />
                             </div>
@@ -1028,7 +1028,7 @@
                                 <p class="text-550"><span class="text-rgb-66-73-62">Zakupy i Spiżarnia</span></p>
                             </div>
                         </div>
-                        <div class="link-551">
+                        <div class="link-551" tabindex="0">
                             <div class="container-552">
                                 <img src="../assets/pantry/icon-553.svg" class="icon-553" alt="icon" />
                             </div>
@@ -1039,7 +1039,7 @@
                     </div>
                 </div>
                 <div class="background-556">
-                    <div class="link-557">
+                    <div class="link-557" tabindex="0">
                         <div class="container-558">
                             <img src="../assets/pantry/icon-559.svg" class="icon-559" alt="icon" />
                         </div>
@@ -1123,7 +1123,7 @@
                     </div>
                     <div class="node-32">
                         <div class="background-33">
-                            <div class="button-34">
+                            <div class="button-34" tabindex="0">
                                 <div class="container-35">
                                     <img src="../assets/pantry/icon-36.svg" class="icon-36" alt="icon" />
                                 </div>
@@ -1131,7 +1131,7 @@
                                     <p class="text-38"><span class="text-white">Lista zakupów (14)</span></p>
                                 </div>
                             </div>
-                            <div class="button-39">
+                            <div class="button-39" tabindex="0">
                                 <div class="container-40">
                                     <img src="../assets/pantry/icon-41.svg" class="icon-41" alt="icon" />
                                 </div>
@@ -1141,7 +1141,7 @@
                             </div>
                         </div>
                         <div class="node-44">
-                            <div class="button-45">
+                            <div class="button-45" tabindex="0">
                                 <div class="container-46">
                                     <img src="../assets/pantry/icon-47.svg" class="icon-47" alt="icon" />
                                 </div>
@@ -1149,7 +1149,7 @@
                                     <p class="text-49"><span class="text-white">Dodaj</span></p>
                                 </div>
                             </div>
-                            <div class="button-50">
+                            <div class="button-50" tabindex="0">
                                 <div class="container-51">
                                     <img src="../assets/pantry/icon-52.svg" class="icon-52" alt="icon" />
                                 </div>
@@ -1157,7 +1157,7 @@
                                     <p class="text-54"><span class="text-rgb-27-28-26">Udostępnij (SMS)</span></p>
                                 </div>
                             </div>
-                            <div class="button-55">
+                            <div class="button-55" tabindex="0">
                                 <div class="container-56">
                                     <img src="../assets/pantry/icon-57.svg" class="icon-57" alt="icon" />
                                 </div>
@@ -1345,7 +1345,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="button-288">
+                                <div class="button-288" tabindex="0">
                                     <div class="container-289">
                                         <p class="text-290"><span class="text-rgb-21-66-18">Zrealizuj</span></p>
                                     </div>
@@ -1617,7 +1617,7 @@
                         </div>
                     </div>
                     <div class="container-305">
-                        <div class="button-powiadomienia-306">
+                        <div class="button-powiadomienia-306" tabindex="0">
                             <div class="container-307">
                                 <img src="../assets/pantry/icon-308.svg" class="icon-308" alt="icon" />
                             </div>
@@ -1637,7 +1637,7 @@
             </div>
             <div class="nav-315">
                 <div class="container-316">
-                    <div class="link-317">
+                    <div class="link-317" tabindex="0">
                         <div class="container-318">
                             <img src="../assets/pantry/icon-319.svg" class="icon-319" alt="icon" />
                         </div>
@@ -1645,7 +1645,7 @@
                             <p class="text-321"><span class="text-rgb-66-73-62">Pulpit</span></p>
                         </div>
                     </div>
-                    <div class="link-322">
+                    <div class="link-322" tabindex="0">
                         <div class="container-323">
                             <img src="../assets/pantry/icon-324.svg" class="icon-324" alt="icon" />
                         </div>
@@ -1653,7 +1653,7 @@
                             <p class="text-326"><span class="text-rgb-66-73-62">Planer</span></p>
                         </div>
                     </div>
-                    <div class="link-327">
+                    <div class="link-327" tabindex="0">
                         <div class="container-328">
                             <img src="../assets/pantry/icon-329.svg" class="icon-329" alt="icon" />
                         </div>
@@ -1661,7 +1661,7 @@
                             <p class="text-331"><span class="text-rgb-21-66-18">Zakupy</span></p>
                         </div>
                     </div>
-                    <div class="link-332">
+                    <div class="link-332" tabindex="0">
                         <div class="container-333">
                             <img src="../assets/pantry/icon-334.svg" class="icon-334" alt="icon" />
                         </div>
