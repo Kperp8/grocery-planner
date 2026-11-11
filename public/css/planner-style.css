@@ -984,6 +984,7 @@ a.prototype-link {
     padding: 24px;
     flex-grow: 0;
     flex-shrink: 1;
+    width: 100%;
     flex-basis: auto;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 1);
@@ -2516,7 +2517,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -3954,7 +3955,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -5383,7 +5384,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -6812,7 +6813,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -8241,7 +8242,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -9670,7 +9671,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -11099,7 +11100,7 @@ a.prototype-link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 8px;
     padding: 10px;
     flex-grow: 1;
@@ -12693,13 +12694,13 @@ a.prototype-link {
 .view-desktop .header-1034 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     gap: 226.8300018310547px;
     padding: 0px 40px 0px 40px;
     flex-grow: 0;
     flex-shrink: 1;
-    width: 77.5%;
+    width: 100%;
     backdrop-filter: blur(48px);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(250, 249, 245, 0.800000011920929);
@@ -13249,6 +13250,12 @@ a.prototype-link {
 }
 
 .view-desktop .aside-1054 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 288px;
+    height: 100vh;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13257,7 +13264,6 @@ a.prototype-link {
     padding: 24px;
     flex-grow: 0;
     flex-shrink: 1;
-    width: 100%;
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(245, 244, 240, 1);
 }
@@ -13285,7 +13291,7 @@ a.prototype-link {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: none;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -14604,6 +14610,12 @@ a.prototype-link {
 }
 
 .view-mobile .container-56 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -16747,7 +16759,7 @@ a.prototype-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 64px 0px 112px 0px;
+    padding: 16px 0px 16px 0px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -17005,6 +17017,7 @@ a.prototype-link {
     padding: 0px;
     flex-grow: 0;
     flex-shrink: 1;
+    width: 100%;
     flex-basis: auto;
     backdrop-filter: blur(48px);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
@@ -17263,6 +17276,7 @@ a.prototype-link {
     padding: 0px;
     flex-grow: 0;
     flex-shrink: 1;
+    width: 100%;
     flex-basis: auto;
     backdrop-filter: blur(48px);
     box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
@@ -17292,7 +17306,7 @@ a.prototype-link {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    max-width: 390px;
+    max-width: none;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
