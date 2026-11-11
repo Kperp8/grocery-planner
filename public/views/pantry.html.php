@@ -1325,6 +1325,36 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="node-276">
+                            <div class="background-shadow-277">
+                                <div class="container-278">
+                                    <div class="node-279">
+                                        <div class="container-280">
+                                            <img src="../assets/pantry/icon-281.svg" class="icon-281" alt="icon" />
+                                        </div>
+                                    </div>
+                                    <div class="container-282">
+                                        <div class="container-283">
+                                            <div class="container-284">
+                                                <p class="text-285"><span class="text-rgb-157-208-144">0 / 14 kupione</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="container-286">
+                                            <p class="text-287"><span class="text-white">142,40 zł</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-288">
+                                    <div class="container-289">
+                                        <p class="text-290"><span class="text-rgb-21-66-18">Zrealizuj</span></p>
+                                    </div>
+                                    <div class="container-291">
+                                        <img src="../assets/pantry/icon-292.svg" class="icon-292" alt="icon" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="node-145">
                             <div class="background-146">
                                 <div class="container-147">
@@ -1561,36 +1591,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="node-276">
-                        <div class="background-shadow-277">
-                            <div class="container-278">
-                                <div class="node-279">
-                                    <div class="container-280">
-                                        <img src="../assets/pantry/icon-281.svg" class="icon-281" alt="icon" />
-                                    </div>
-                                </div>
-                                <div class="container-282">
-                                    <div class="container-283">
-                                        <div class="container-284">
-                                            <p class="text-285"><span class="text-rgb-157-208-144">0 / 14 kupione</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="container-286">
-                                        <p class="text-287"><span class="text-white">142,40 zł</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="button-288">
-                                <div class="container-289">
-                                    <p class="text-290"><span class="text-rgb-21-66-18">Zrealizuj</span></p>
-                                </div>
-                                <div class="container-291">
-                                    <img src="../assets/pantry/icon-292.svg" class="icon-292" alt="icon" />
                                 </div>
                             </div>
                         </div>

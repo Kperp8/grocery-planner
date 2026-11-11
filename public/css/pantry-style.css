@@ -377,10 +377,9 @@ a.prototype-link {
         align-items: center;
         gap: 16px;
         padding: 24px;
-        flex-grow: 1;
-        flex-shrink: 1;
-        width: 100%;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        grid-column: span 8;
+        min-width: 0;
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(245, 244, 240, 1);
         border-radius: 16px;
     }
@@ -483,8 +482,9 @@ a.prototype-link {
 
     .background-41 {
         flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
+        flex-shrink: 0;
+        width: 68%;
+        height: 8px;
         background-color: rgba(21, 66, 18, 1);
         border-radius: 9999px;
     }
@@ -498,6 +498,8 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         width: 100%;
+        height: 8px;
+        overflow: hidden;
         background-color: rgba(227, 226, 223, 1);
         border-radius: 9999px;
     }
@@ -510,7 +512,7 @@ a.prototype-link {
         padding: 8px 0px 8px 0px;
         flex-grow: 0;
         flex-shrink: 1;
-        width: 83.33333333333334%;
+        width: 100%;
     }
 
     .text-44 {
@@ -583,22 +585,20 @@ a.prototype-link {
         justify-content: space-between;
         align-items: flex-start;
         padding: 24px;
-        flex-grow: 1;
-        flex-shrink: 1;
-        width: 100%;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        grid-column: span 4;
+        min-width: 0;
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(239, 238, 234, 1);
         border-radius: 16px;
     }
 
     .node-4 {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        grid-auto-rows: minmax(142px, auto);
+        gap: 24px;
+        align-items: stretch;
         padding: 0px;
-        flex-grow: 0;
-        flex-shrink: 1;
         width: 100%;
     }
 
@@ -658,7 +658,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(21, 66, 18, 1);
         border-radius: 12px;
     }
@@ -784,9 +784,59 @@ a.prototype-link {
     }
 
     .container-50 {
-        flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        flex: 1 1 0;
+        min-width: 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .container-50>div,
+    .container-66>div {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    & [class^="label-"]>[class^="input-"] {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    & [class^="paragraph-"] {
+        gap: 8px;
+    }
+
+    & [class^="paragraph-"]>p {
+        width: auto;
+        min-width: 0;
+    }
+
+    & [class^="item-"]>[class^="container-"]:first-child {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    & [class^="item-"]>[class^="container-"]:first-child>[class^="container-"]:last-child {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    & [class^="item-"]>[class^="container-"]:last-child {
+        flex-shrink: 0;
+    }
+
+    & [class^="item-"] [class^="container-"]>[class^="background-"]:empty {
+        width: 6px;
+        height: 6px;
+        flex-shrink: 0;
+    }
+
+    & [class^="item-"] [class^="button-"] img {
+        width: 16px;
+        height: 16px;
     }
 
     .icon-69 {
@@ -991,7 +1041,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         width: 100%;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(255, 255, 255, 1);
         border-radius: 16px;
     }
@@ -2355,7 +2405,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(255, 255, 255, 1);
         border-radius: 16px;
     }
@@ -3318,7 +3368,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(255, 255, 255, 1);
         border-radius: 16px;
     }
@@ -4281,7 +4331,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(255, 255, 255, 1);
         border-radius: 16px;
     }
@@ -4806,7 +4856,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(255, 255, 255, 1);
         border-radius: 16px;
     }
@@ -4815,12 +4865,11 @@ a.prototype-link {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 16px;
         padding: 0px;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: auto;
+        grid-column: span 8;
+        min-width: 0;
     }
 
     .icon-381 {
@@ -5008,12 +5057,14 @@ a.prototype-link {
         justify-content: flex-start;
         align-items: flex-start;
         padding: 0px;
-        flex-grow: 0;
-        flex-shrink: 1;
-        width: 5.625%;
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .container-389 {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -5021,7 +5072,7 @@ a.prototype-link {
         padding: 0px;
         flex-grow: 0;
         flex-shrink: 1;
-        flex-basis: auto;
+        width: 100%;
     }
 
     .text-397 {
@@ -6259,7 +6310,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(255, 255, 255, 1);
         border-radius: 16px;
     }
@@ -6421,7 +6472,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
         background-color: rgba(245, 244, 240, 1);
         border-radius: 16px;
     }
@@ -6430,22 +6481,19 @@ a.prototype-link {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 24px;
         padding: 0px;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: auto;
+        grid-column: span 4;
+        min-width: 0;
     }
 
     .node-47 {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 24px;
+        align-items: start;
         padding: 0px;
-        flex-grow: 0;
-        flex-shrink: 1;
         width: 100%;
     }
 
@@ -6453,7 +6501,7 @@ a.prototype-link {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 24px;
         padding: 0px;
         flex-grow: 0;
@@ -6465,11 +6513,11 @@ a.prototype-link {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
-        padding: 64px 40px 24px 40px;
+        align-items: stretch;
+        padding: 24px 40px 24px 40px;
         flex-grow: 0;
         flex-shrink: 1;
-        flex-basis: auto;
+        width: 100%;
         background-color: rgba(250, 249, 245, 1);
     }
 
@@ -6527,7 +6575,10 @@ a.prototype-link {
         padding: 0px;
         flex-grow: 0;
         flex-shrink: 1;
-        width: 3.3482142857142856%;
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .container-507 {
@@ -6540,6 +6591,7 @@ a.prototype-link {
         flex-shrink: 1;
         flex-basis: auto;
         max-width: 448px;
+        position: relative;
     }
 
     .icon-516 {
@@ -6563,33 +6615,30 @@ a.prototype-link {
     }
 
     .overlay-shadow-518 {
-        flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
-        box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5);
-        background-color: rgba(255, 255, 255, 0.0020000000949949026);
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 0px 2px rgba(250, 249, 245, 1);
+        background-color: transparent;
         border-radius: 9999px;
     }
 
     .background-517 {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
-        padding: 0px;
-        flex-grow: 0;
-        flex-shrink: 1;
-        width: 26.086955440066983%;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 8px;
+        height: 8px;
         background-color: rgba(161, 62, 40, 1);
         border-radius: 9999px;
     }
 
     .button-514 {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 8px 8px 14px 8px;
+        padding: 8px;
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -6597,12 +6646,7 @@ a.prototype-link {
     }
 
     .button-shadow-520 {
-        flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
-        box-shadow: 0px 4px 16px -2px rgba(0, 0, 0, 0.5);
-        background-color: rgba(255, 255, 255, 0.0020000000949949026);
-        border-radius: 12px;
+        display: none;
     }
 
     .icon-522 {
@@ -6661,6 +6705,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
+        box-shadow: 0px 4px 16px -2px rgba(21, 66, 18, 0.2);
         background-color: rgba(21, 66, 18, 1);
         border-radius: 12px;
     }
@@ -6669,11 +6714,11 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        max-width: 237.1699981689453px;
-        box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 0px 2px rgba(194, 201, 187, 0.4);
         border-radius: 9999px;
-        width: 100%;
-        height: auto;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
     }
 
     .container-513 {
@@ -6691,15 +6736,21 @@ a.prototype-link {
     .header-506 {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
-        gap: 226.8300018310547px;
-        padding: 0px 40px 0px 40px;
+        gap: 16px;
+        padding: 0px 40px 0px 328px;
         flex-grow: 0;
         flex-shrink: 1;
-        width: 77.5%;
-        backdrop-filter: blur(48px);
-        box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        width: 100%;
+        height: 70px;
+        backdrop-filter: blur(24px);
+        box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.04);
         background-color: rgba(250, 249, 245, 0.800000011920929);
     }
 
@@ -7255,8 +7306,14 @@ a.prototype-link {
         padding: 24px;
         flex-grow: 0;
         flex-shrink: 1;
-        width: 100%;
-        box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 288px;
+        height: 100vh;
+        overflow-y: auto;
+        z-index: 110;
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.04);
         background-color: rgba(245, 244, 240, 1);
     }
 
@@ -7279,11 +7336,11 @@ a.prototype-link {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 0px 0px 0px 288px;
+        padding: 70px 0px 0px 288px;
         width: 100%;
         min-height: 100vh;
-        margin: 0 auto;
-        max-width: 1280px;
+        margin: 0;
+        max-width: none;
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -7625,8 +7682,9 @@ a.prototype-link {
 
     .background-31 {
         flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
+        flex-shrink: 0;
+        width: 68%;
+        height: 8px;
         background-color: rgba(45, 90, 39, 1);
         border-radius: 9999px;
     }
@@ -7639,7 +7697,9 @@ a.prototype-link {
         padding: 0px;
         flex-grow: 0;
         flex-shrink: 1;
-        width: 95.0920245398773%;
+        width: 100%;
+        height: 8px;
+        overflow: hidden;
         background-color: rgba(227, 226, 223, 1);
         border-radius: 9999px;
     }
@@ -7999,6 +8059,12 @@ a.prototype-link {
     }
 
     .node-44 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -11126,7 +11192,7 @@ a.prototype-link {
         justify-content: flex-start;
         align-items: flex-start;
         gap: 16px;
-        padding: 0px 16px 64px 16px;
+        padding: 0px 16px 0px 16px;
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -11332,13 +11398,11 @@ a.prototype-link {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 8px 16px 8px 16px;
+        width: 100%;
+        padding: 0px;
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
-        backdrop-filter: blur(24px);
-        box-shadow: 0px -4px 16px 0px rgba(0, 0, 0, 0.5);
-        background-color: rgba(250, 249, 245, 0.949999988079071);
     }
 
     .container-3 {
@@ -11352,7 +11416,7 @@ a.prototype-link {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 64px 0px 112px 0px;
+        padding: 0px 0px 16px 0px;
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
@@ -11611,6 +11675,12 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        width: 100%;
         backdrop-filter: blur(48px);
         box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
         background-color: rgba(250, 249, 245, 0.8500000238418579);
@@ -11869,6 +11939,7 @@ a.prototype-link {
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto;
+        width: 100vw;
         backdrop-filter: blur(48px);
         box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
         background-color: rgba(250, 249, 245, 0.8999999761581421);
@@ -11893,7 +11964,7 @@ a.prototype-link {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 0px;
+        padding: 64px 0px 0px 0px;
         width: 100%;
         min-height: 100vh;
         margin: 0 auto;
