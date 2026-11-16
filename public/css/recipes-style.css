@@ -20,6 +20,8 @@
     --text-rgb-227-226-223: rgba(227, 226, 223, 1);
 }
 
+/* desktop */
+.view-desktop {
 .text-rgb-161-62-40 {
     color: var(--text-rgb-161-62-40);
 }
@@ -55,6 +57,7 @@
 .text-rgb-227-226-223 {
     color: var(--text-rgb-227-226-223);
 }
+}
 
 /* CSS Reset */
 * {
@@ -81,6 +84,7 @@ a.prototype-link {
     display: contents;
 }
 
+.view-desktop {
 .text-10 {
     flex-grow: 0;
     flex-shrink: 1;
@@ -453,7 +457,7 @@ a.prototype-link {
     justify-content: center;
     align-items: center;
     padding: 6px 16px 6px 16px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
@@ -482,7 +486,7 @@ a.prototype-link {
     justify-content: center;
     align-items: center;
     padding: 6px 16px 6px 16px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     background-color: rgba(239, 238, 234, 1);
@@ -510,7 +514,7 @@ a.prototype-link {
     justify-content: center;
     align-items: center;
     padding: 6px 16px 6px 16px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     background-color: rgba(239, 238, 234, 1);
@@ -538,7 +542,7 @@ a.prototype-link {
     justify-content: center;
     align-items: center;
     padding: 6px 16px 6px 16px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     background-color: rgba(239, 238, 234, 1);
@@ -587,7 +591,7 @@ a.prototype-link {
     align-items: center;
     gap: 6px;
     padding: 6px 16px 6px 16px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
@@ -604,17 +608,20 @@ a.prototype-link {
     padding: 0px 0px 4px 0px;
     flex-grow: 0;
     flex-shrink: 1;
-    width: 96.49122807017544%;
+    width: 100%;
 }
 
 .node-26 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+    width: 100%;
     padding: 16px 16px 16px 16px;
     border-radius: 16px;
     background-color: rgba(245, 244, 240, 1);
-    margin-right: 16px;
+    margin-right: 0px;
     margin-bottom: 16px;
 }
 
@@ -628,6 +635,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
 }
 
 .node-4 {
@@ -639,6 +647,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
 }
 
 .text-50 {
@@ -2109,7 +2118,7 @@ a.prototype-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 16px;
+    gap: 24px;
     padding: 0px;
     flex-grow: 1;
     flex-shrink: 1;
@@ -4709,7 +4718,7 @@ a.prototype-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 24px;
+    gap: 32px;
     padding: 24px;
     flex-grow: 1;
     flex-shrink: 1;
@@ -4738,6 +4747,7 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
 }
 
 .main-2 {
@@ -4745,10 +4755,11 @@ a.prototype-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 64px 40px 24px 40px;
+    padding: 104px 40px 24px 40px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
     background-color: rgba(250, 249, 245, 1);
 }
 
@@ -4965,9 +4976,15 @@ a.prototype-link {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    margin-left: auto;
 }
 
 .header-384 {
+    position: fixed;
+    top: 0;
+    left: 288px;
+    right: 0;
+    z-index: 10;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -4976,7 +4993,6 @@ a.prototype-link {
     padding: 0px 40px 0px 40px;
     flex-grow: 0;
     flex-shrink: 1;
-    width: 77.5%;
     backdrop-filter: blur(48px);
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(250, 249, 245, 0.800000011920929);
@@ -5535,6 +5551,10 @@ a.prototype-link {
 }
 
 .aside-404 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -5543,8 +5563,10 @@ a.prototype-link {
     padding: 24px;
     flex-grow: 0;
     flex-shrink: 1;
-    width: 100%;
-    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+    width: 288px;
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(245, 244, 240, 1);
 }
 
@@ -5577,6 +5599,7 @@ a.prototype-link {
     flex-basis: auto;
     background-color: rgba(255, 255, 255, 1);
 }
+}
 
 /* mobile */
 /* Add font files for Plus Jakarta Sans */
@@ -5601,6 +5624,7 @@ a.prototype-link {
     --text-rgb-61-6-0: rgba(61, 6, 0, 1);
 }
 
+.view-mobile {
 .text-rgb-114-121-110 {
     color: var(--text-rgb-114-121-110);
 }
@@ -5636,6 +5660,7 @@ a.prototype-link {
 .text-rgb-61-6-0 {
     color: var(--text-rgb-61-6-0);
 }
+}
 
 /* CSS Reset */
 * {
@@ -5662,6 +5687,7 @@ a.prototype-link {
     display: contents;
 }
 
+.view-mobile {
 .text-8 {
     flex-grow: 0;
     flex-shrink: 1;
@@ -5710,9 +5736,15 @@ a.prototype-link {
 }
 
 .input-6 {
-    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 16px;
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
+    min-width: 0;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(239, 238, 234, 1);
     border-radius: 12px;
@@ -5772,13 +5804,15 @@ a.prototype-link {
 
 .container-5 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
+    gap: 8px;
     padding: 0px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+    width: 100%;
 }
 
 .text-20 {
@@ -5955,12 +5989,21 @@ a.prototype-link {
 }
 
 .node-18 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
 }
 
 .node-17 {
+    width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -5971,6 +6014,7 @@ a.prototype-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
     padding: 4px 0px 0px 0px;
     flex-grow: 0;
     flex-shrink: 1;
@@ -8412,6 +8456,7 @@ a.prototype-link {
     padding: 16px 0px 0px 0px;
     flex-grow: 0;
     flex-shrink: 1;
+    width: 100%;
     flex-basis: auto;
 }
 
@@ -8676,11 +8721,21 @@ a.prototype-link {
     width: 100%;
 }
 
+.view-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-233 {
+    order: -1;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
     padding: 0px;
     flex-grow: 0;
     flex-shrink: 1;
@@ -8935,6 +8990,11 @@ a.prototype-link {
 }
 
 .nav-255 {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    align-self: stretch;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8969,11 +9029,41 @@ a.prototype-link {
     align-items: flex-start;
     padding: 0px;
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     margin: 0 auto;
     max-width: 390px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
     background-color: rgba(250, 249, 245, 1);
+}
+}
+
+.view-desktop [class^="button-"]:not([class*="shadow"], [class*="margin"]),
+.view-desktop [class^="link-"]:not([class*="shadow"]) {
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, outline-color 0.2s ease;
+}
+
+.view-desktop [class^="button-"]:not([class*="shadow"], [class*="margin"]):hover,
+.view-desktop [class^="link-"]:not([class*="shadow"]):hover {
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.07);
+}
+
+.view-desktop [class^="button-"]:not([class*="shadow"], [class*="margin"]):focus-visible,
+.view-desktop [class^="link-"]:not([class*="shadow"]):focus-visible {
+    outline: 2px solid rgba(21, 66, 18, 1);
+    outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+    .view-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .view-mobile {
+        display: none;
+    }
 }
