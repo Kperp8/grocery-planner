@@ -18,7 +18,6 @@ public/views/             szablony *.html.php (statyczne eksporty z Figmy, bez k
 public/css/               jeden arkusz na widok: <nazwa>-style.css
 public/assets/<widok>/    SVG/PNG z eksportu Figmy
 docker/php/, docker/nginx/  Dockerfile'e; nginx.conf
-docker/db/                pusty, nieśledzony przez git; montowany jako docker-entrypoint-initdb.d
 vendor/                   generowany przez Composera (gitignored)
 ```
 
@@ -26,8 +25,8 @@ vendor/                   generowany przez Composera (gitignored)
 
 - PHP 8.3 (`docker/php/Dockerfile`: `php:8.3-fpm-alpine`). Każdy plik PHP zaczyna się od `declare(strict_types=1);`. **BRAK** deklaracji wersji PHP w `composer.json`.
 - Composer: wyłącznie autoload PSR-4 (`composer.json`). Brak `require`/`require-dev`, brak `composer.lock`.
-- Rozszerzenia PHP w obrazie: opcache, zip, gd, bcmath, pgsql, pdo_pgsql. Żaden kod ich dziś nie używa.
-- Usługi w `docker-compose.yaml`: `server` (nginx), `php` (PHP-FPM), `db` (PostgreSQL 16), `ollama`, `mailpit`, `pgadmin-wdpai`. Kod PHP korzysta tylko z nginx i php-fpm; pozostałych usług nie używa.
+- Rozszerzenia PHP w obrazie: opcache, zip, gd, bcmath, pgsql, pdo_pgsql. Żaden kod ich dziś nie używa (pgsql/pdo_pgsql są pozostałością po usuniętej usłudze bazy danych).
+- Usługi w `docker-compose.yaml`: `server` (nginx) i `php` (PHP-FPM), obie w sieci `pg-network`. Nie ma innych usług; PostgreSQL, Ollama, Mailpit i pgAdmin zostały usunięte, bo żaden kod ich nie używał.
 - Frontend: HTML + CSS. Brak JavaScript (widoki nie zawierają `<script>`), brak `package.json` i narzędzi buildowych.
 
 ## 4. Architektura i przepływ żądania
@@ -47,7 +46,7 @@ Ograniczenia do przestrzegania:
 
 ## 5. Uruchamianie
 
-Wymagany plik `.env` w katalogu głównym. Jest w `.gitignore`, nie jest śledzony przez git, a README nie opisuje jego utworzenia. **BRAK** `.env.example`. Compose czyta z niego: `POSTGRES_DB`, `POSTGRES_USER`, `POSTGRES_PASSWORD`, `PGADMIN_DEFAULT_EMAIL`, `PGADMIN_DEFAULT_PASSWORD`, a opcjonalnie `APP_PORT` (domyślnie 8080), `POSTGRES_PORT` (5433), `MAILPIT_PORT` (8025), `PGADMIN_PORT` (5050), `PGADMIN_CONTAINER_NAME`. Kod PHP nie odczytuje żadnej z tych zmiennych.
+Plik `.env` w katalogu głównym jest opcjonalny. Jest w `.gitignore` i nie jest śledzony przez git. Compose czyta z niego tylko `APP_PORT` (domyślnie 8080). **BRAK** `.env.example`.
 
 ```powershell
 docker compose up --build -d
@@ -104,11 +103,11 @@ Brak (**BRAK**): uwierzytelniania, sesji, CSRF, walidacji i escapingu danych wej
 Ryzyka do rozważenia (nie są częścią tego dokumentu do naprawy):
 
 - Szablony `public/views/*.html.php` leżą w document root, a nginx wykonuje każdy `*.php` z `/app/public`. Są więc dostępne bezpośrednio pod `/views/<nazwa>.html.php`.
-- `docker-compose.yaml` publikuje porty PostgreSQL (5433), pgAdmin (5050), Ollama (11434) i Mailpit (8025, 1025) bez przypisania do `127.0.0.1`, z hasłami deweloperskimi z `.env`.
+- `docker-compose.yaml` publikuje port `server` (`APP_PORT`, domyślnie 8080) na wszystkich interfejsach, bez przypisania do `127.0.0.1`.
 
 ## 9. Braki informacji (**BRAK**)
 
-- **Dane**: brak kodu łączącego się z PostgreSQL, brak migracji i schematu; `docker/db/` nie zawiera plików. Nie wiadomo, jak modelowane są przepisy, spiżarnia i plan.
+- **Dane**: brak kodu łączącego się z bazą, brak migracji i schematu. Nie wiadomo, jak modelowane są przepisy, spiżarnia i plan. Gdy pojawi się baza, trzeba będzie ponownie dodać usługę do `docker-compose.yaml` i zmienne do `.env`.
 - **Logika domenowa**: brak modeli, serwisów i endpointów API; `DefaultController` zwraca wyłącznie statyczne strony.
 - **Frontend interaktywny**: brak JS. Nie wiadomo, czy jest planowany i jaka technologia.
 - **Wersja PHP**: brak ograniczenia w `composer.json`; jedynym źródłem jest Dockerfile.
@@ -116,7 +115,7 @@ Ryzyka do rozważenia (nie są częścią tego dokumentu do naprawy):
 - **Jakość**: brak testów, lintera i CI, więc nie ma ustalonego progu jakości.
 - **README**: `cd GroceryPlanner` nie zgadza się z nazwą katalogu klonowanego z `grocery-planner.git`; brak kroku z `.env`; sekcje Tech stack i Struktura są niewypełnione.
 - **Licencja**: brak pliku LICENSE.
-- **Nieużywane elementy**: `public/views/nav.html.php` nie jest włączany przez żaden widok; `docker/db/` jest pusty.
+- **Nieużywane elementy**: `public/views/nav.html.php` nie jest włączany przez żaden widok. Pusty katalog `docker/db/` pozostał na dysku po usunięciu usługi `db`; nie jest śledzony przez git.
 
 ## 10. Zasady dla agentów
 
